@@ -4,7 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node src/main.js",
+    "web": "parcel src/index.html",
+    "console": "node src/main.js",
     "test": "node test/test_tictactoe.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
   }
 }
